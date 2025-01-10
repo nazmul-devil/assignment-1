@@ -1,4 +1,77 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+
+* {
     margin: 0;
     padding: 0;
+}
+
+#section-1 {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 0 auto;
+    width: 1280px;
+    height: 560px;
+
+
+}
+
+#section-1 .section-1-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    margin: 80px 0;
+    padding: 80px 100px;
+}
+
+.section-1-content .section-1-ctext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 24px;
+    padding: 0;
+}
+
+.section-1-content .section-1-cimg {
+    width: 475px;
+    height: 330px;
+}
+
+.section-1-content .section-1-ctext p {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: "Fira Sans";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-1-content .section-1-ctext h2 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans";
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.section-1-btn button {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    width: 270px;
+    height:55px;
+    color: white;
+    font-family: "Fira Sans";
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.section-1-btn button:hover {
+    background: rgb(0, 106, 80);
+    cursor: pointer;
 }
