@@ -18,7 +18,7 @@
 
 #section-1 .section-1-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
     gap: 64;
@@ -33,11 +33,12 @@
     align-items: start;
     gap: 24px;
     padding: 0;
+    margin-top: 37px;
+    margin-bottom: 24px;
 }
 
 .section-1-content .section-1-cimg {
-    width: 475px;
-    height: 330px;
+    width: 100%;
 }
 
 .section-1-content .section-1-ctext p {
