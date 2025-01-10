@@ -65,14 +65,257 @@
     border-radius: 8px;
     background: rgb(0, 106, 80);
     width: 270px;
-    height:55px;
+    height: 55px;
     color: white;
     font-family: "Fira Sans";
     font-size: 18px;
     font-weight: 600;
     border: none;
 }
+
 .section-1-btn button:hover {
-    background: rgb(0, 106, 80);
+    background: rgb(106, 0, 71);
     cursor: pointer;
+}
+
+#section-2 {
+    width: 1280px;
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+    margin: 0 auto;
+}
+
+#section-2 h3 {
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+#section-2 p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.section-2-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 0px;
+    width: 1280px;
+    height: 325px;
+    padding: 0;
+}
+
+.section-2-card .section-2-card-1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.section-2-card h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.section-2-card-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.section-2-card .section-2-card-1 img {
+    width: 49.66px;
+    height: 53.09px;
+    top: 1px;
+    left: 15px;
+}
+
+.section-2-cbtn-1 button {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    width: 122px;
+    height: 41px;
+    color: white;
+    display: inline-block;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.section-2-cbtn-1 button:hover {
+    background: rgb(186, 84, 245);
+    cursor: pointer;
+}
+
+.section-2-card .section-2-card-2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.section-2-card .section-2-card-2 img {
+    width: 49.66px;
+    height: 53.09px;
+    top: 1px;
+    left: 15px;
+}
+
+.section-2-cbtn-2 button {
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    width: 122px;
+    height: 41px;
+    color: white;
+    display: inline-block;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.section-2-cbtn-2 button:hover {
+    background: rgb(161, 9, 9);
+    cursor: pointer;
+}
+
+.section-2-card .section-2-card-3 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    width: 410.67px;
+    height: 325px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.section-2-card .section-2-card-3 img {
+    width: 49.66px;
+    height: 53.09px;
+    top: 1px;
+    left: 15px;
+}
+
+.section-2-cbtn-3 button {
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    width: 122px;
+    height: 41px;
+    color: white;
+    display: inline-block;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+
+.section-2-cbtn-3 button:hover {
+    background: #7e39ff;
+    cursor: pointer;
+}
+
+#section-2 .section-2-text {
+    width: 1280px;
+    height: 256px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px 24px;
+    flex-grow: 1;
+}
+
+#section-2 .section-2-text .section-2-text-content {
+    background-image: url("assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#section-2 .section-2-text .section-2-text-content .section-2-text-content-1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family:"Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+#section-2 .section-2-text .section-2-text-content .section-2-text-content-2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-family:"Fira Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+#section-2 .section-2-text .section-2-text-content .section-2-text-content-3 {
+    color: rgba(14, 14, 14, 0.6);
+    font-family:"Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
