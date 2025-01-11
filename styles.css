@@ -639,3 +639,98 @@
     background: #03858f;
     cursor: pointer;
 }
+
+#section-7 {
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    width: 1280px;
+    height: 395px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+}
+
+#section-7 .section-7-container .section-7-head {
+    width: 622px;
+    height: 48px;
+    margin: 0px 64px 16px 64px;
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#section-7 .section-7-container .section-7-paragraph {
+    width: 622px;
+    height: 48px;
+    margin: 16px 64px 24px 64px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#section-7 .section-7-container .section-7-footer {
+    width: 622px;
+    height: 19px;
+    margin: 25px 64px 0px 64px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section-7-subscription {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.section-7-subscription input[type="email"] {
+    width: 600px;
+    height: 55px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+}
+
+#section-7 .section-7-subscription-btn {
+    display: inline-block;
+    width: 150px;
+    height: 90px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    padding: 18px 40px 18px 40px;
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#section-7 button:hover {
+    background: #03858f;
+    cursor: pointer;
+}
