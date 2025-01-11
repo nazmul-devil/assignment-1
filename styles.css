@@ -605,7 +605,7 @@
     width: 1032px;
     height: 64px;
     box-sizing: border-box;
-    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border: 1px 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
     padding: 20px 40px 20px 40px;
     color: rgba(14, 14, 14, 0.3);
@@ -733,4 +733,30 @@
 #section-7 button:hover {
     background: #03858f;
     cursor: pointer;
+}
+
+#footer-bootom {
+    background: rgb(255, 255, 255);
+    width: 1600px;
+    height: 226px;
+    margin: 80 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 32;
+    padding: 50px 160px 50px 160px;
+}
+
+ .footer-bootom-text {
+    
+    margin: 0px 529px 31.5px 529px;
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
 }
